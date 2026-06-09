@@ -1,4 +1,4 @@
-
+import { Link } from "react-router";
 
 function Header(){
 
@@ -26,9 +26,9 @@ function Header(){
                 </div>
             </div>
             <div className="max-w-[80%] container mx-auto flex justify-center gap-8 flex-wrap">
-                <a href="https://www.swiggy.com/restaurants">
+                <Link to="/restaurant">
                     <img className="h-81 w-74 object-contain" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/23/ec86a309-9b06-48e2-9adc-35753f06bc0a_Food3BU.png" alt="" />
-                </a>
+                </Link>
                 <a href="https://www.swiggy.com/instamart?entryId=1234&entryName=mainTileEntry4&v=1">
                     <img className="h-81 w-74 object-contain" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto/MERCHANDISING_BANNERS/IMAGES/MERCH/2024/7/23/b5c57bbf-df54-4dad-95d1-62e3a7a8424d_IM3BU.png" alt="" />
                 </a>
