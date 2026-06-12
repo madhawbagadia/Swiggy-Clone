@@ -30,7 +30,7 @@ export default function RestInfo({restData}){
                     />
                 </svg>
                 <p className="text-xl text-gray-700 font-semibold mb-1 tracking-tighter">{restData?.name}</p>
-                <p className="font-medium text-lg">{"₹"+restData?.defaultPrice/100}</p>
+                <p className="font-medium text-lg">{"₹"+('defaultPrice' in restData ? restData?.defaultPrice/100:restData?.price/100)}</p>
                 <div className="flex items-center gap-0.5">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
