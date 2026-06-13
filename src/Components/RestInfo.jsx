@@ -7,7 +7,7 @@ export default function RestInfo({restData}){
         <>
         <div className="flex justify-between w-full mb-2 pb-2">
             <div className="w-[70%]">
-                <svg
+                {/* <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     className="w-4 h-4 text-green-700"
@@ -28,7 +28,7 @@ export default function RestInfo({restData}){
                         r="5"
                         fill="currentColor"
                     />
-                </svg>
+                </svg> */}
                 <p className="text-xl text-gray-700 font-semibold mb-1 tracking-tighter">{restData?.name}</p>
                 <p className="font-medium text-lg">{"₹"+('defaultPrice' in restData ? restData?.defaultPrice/100:restData?.price/100)}</p>
                 <div className="flex items-center gap-0.5">
